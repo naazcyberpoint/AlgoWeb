@@ -1,0 +1,26 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "AlgoWeb REST & WebSocket API Specification",
+    "description": "Production OpenAPI contract for AlgoWeb algorithmic trading microservices.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/health": {
+      "get": {
+        "summary": "Healthcheck endpoint",
+        "responses": {
+          "200": { "description": "Server online status" }
+        }
+      }
+    },
+    "/api/v1/status": {
+      "get": {
+        "summary": "V1 Router Status",
+        "responses": {
+          "200": { "description": "V1 status payload" }
+        }
+      }
+    }
+  }
+}

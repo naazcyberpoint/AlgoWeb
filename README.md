@@ -9,3 +9,5 @@ The frontend app contains the Delta BTC/ETH opposite-pair paper trading dashboar
 ## Deployment
 
 Vercel builds the Next.js app from the frontend directory using the repository-root build command configuration.
+
+Deployment configuration verified for the frontend root.
